@@ -1,6 +1,7 @@
 # interact_slam
+**注：这是我本科毕业设计的一部分**   
 
-基于跨平台 C++图形用户界面应用程序开发框架 Qt5 进行开发，程 序的启动界面如下图所示。
+基于跨平台 C++图形用户界面应用程序开发框架 Qt5 进行开发，程序的启动界面如下图所示。
 
 ![image](https://github.com/chenjianqu/interact_slam/blob/master/examples/%E5%9B%BE%E7%89%871.png)
 
