@@ -2,7 +2,7 @@
 
 基于跨平台 C++图形用户界面应用程序开发框架 Qt5 进行开发，程 序的启动界面如下图所示。
 
-![image](expamles/图片1.png)
+![image](https://github.com/chenjianqu/interact_slam/blob/master/examples/%E5%9B%BE%E7%89%871.png)
 
 交互程序主界面
 
@@ -14,7 +14,7 @@
 
 ​	节点需要轮循接收ROS话题消息，而Qt库也需要轮循监听交互事件，要解决这两者的冲突，一个可选的办法是构造两个线程：一个用于接收ROS消息，另一个用于监听事件。但是在本文中，ROS操作与Qt库的交互十分频繁，如果按照这种思路实现将非常复杂，也会造成性能下降。本文的解决办法是通过定时器轮循ROS消息，而把代码都放在同一个线程中，这样编写的代码更加清晰、高效。
 
-![image]()
+![image](https://github.com/chenjianqu/interact_slam/blob/master/examples/%E5%9B%BE%E7%89%872.png)
 
 运行中的交互界面
 
