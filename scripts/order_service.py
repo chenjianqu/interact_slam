@@ -1,5 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+#########################################################
+# Copyright (C) 2022, Chen Jianqu, Shanghai University
+#
+# This file is part of interact_slam.
+#
+# Licensed under the MIT License;
+# you may not use this file except in compliance with the License.
+#########################################################
+
+
+
 import rospy
 from interact_slam.srv import *
 

@@ -1,3 +1,12 @@
+/*******************************************************
+ * Copyright (C) 2022, Chen Jianqu, Shanghai University
+ *
+ * This file is part of interact_slam.
+ *
+ * Licensed under the MIT License;
+ * you may not use this file except in compliance with the License.
+ *******************************************************/
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
